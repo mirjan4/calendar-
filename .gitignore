@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+*/dist/
+
+# Environment configurations
+.env
+.env.*
+*.env
+!.env.example
+!*/.env.example
+
+# Uploads & Temporary files
+uploads/imports/*
+!uploads/imports/.gitkeep
+uploads/themes/*
+!uploads/themes/.gitkeep
+backend/uploads/imports/*
+!backend/uploads/imports/.gitkeep
+backend/uploads/themes/*
+!backend/uploads/themes/.gitkeep
+
+# Logs & System files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
